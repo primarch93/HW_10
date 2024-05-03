@@ -1,6 +1,7 @@
     8  mkdir git_hw
    10  git config --get user.name
    11  git config --get user.email
+   57  git clone https://github.com/primarch93/HW_10.git
    12  ls -l
    13  ls -l
    14  ls -la
