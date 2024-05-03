@@ -1,0 +1,33 @@
+    8  mkdir git_hw
+   10  git config --get user.name
+   11  git config --get user.email
+   12  ls -l
+   13  ls -l
+   14  ls -la
+   15  git status
+   16    git log
+   17  touch text_ignore.txt
+   18  git status
+   19  git add
+   20  git add .
+   21  git commit -m "change gitignore file"
+   22  git status
+   23  git push
+   24  touch main_test.txt
+   25  git add .
+   26  git commit -n "create file"
+   27  git commit -m "create file"
+   28  git push
+   29  git checkout -b developer
+   30  touch developer_test.txt
+   31  git add .
+   32  git commit -m "create branch and file"
+   33  git status
+   34  git add .
+   35  git status
+   36  git commit -m "change developer_test.txt"
+   37  git push
+   38  git checkout main
+   39  git merge developer
+   40  git log
+   56  history > command_list.csv
